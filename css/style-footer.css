@@ -1,0 +1,51 @@
+/* Estilo para el body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(240, 240, 240); /* Fondo claro */
+    color: rgb(33, 33, 33); /* Texto oscuro para buena legibilidad */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* Estilo para el footer */
+footer {
+    width: 100%;
+    background-color: rgb(16, 111, 104); /* Verde del nav */
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 10px;
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1); /* Sombra superior */
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    display: inline-block;
+    margin: 5px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: rgb(240, 240, 240); /* Blanco más claro en hover */
+    transform: translateY(-3px); /* Efecto de elevación */
+}
+
+/* Ajuste para asegurar el footer al final en pantallas pequeñas */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

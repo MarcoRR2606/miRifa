@@ -1,0 +1,39 @@
+main {
+    flex: 1; /* Expande el main para ocupar el espacio disponible */
+    display: flex; /* Activa Flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgb(163, 192, 195); /* Fondo claro */
+}
+
+main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(16, 111, 104); /* Verde del nav */
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+main .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(16, 111, 104); /* Verde principal */
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main .cta-button:hover {
+    background-color: rgb(13, 94, 88); /* Verde más oscuro en hover */
+    transform: translateY(-5px); /* Efecto de elevación */
+}
